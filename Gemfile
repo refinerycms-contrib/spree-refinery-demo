@@ -51,5 +51,5 @@ gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 
-gem 'refinerycms', '~> 3.0.0'
+gem 'refinerycms', '~> 3.0.6'
 gem 'spree-refinerycms-authentication', github: 'refinerycms-contrib/spree-refinery-authentication', branch: '3-0-stable'
