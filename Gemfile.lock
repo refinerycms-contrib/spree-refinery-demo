@@ -1,12 +1,12 @@
 GIT
   remote: git://github.com/refinerycms-contrib/spree-refinery-authentication.git
-  revision: 27389831676f01d139bbe1bb9db18b4fd873dd77
+  revision: ea26eda6e18bd221880ac4424ee0555cc540b502
   branch: 3-0-stable
   specs:
-    spree-refinerycms-authentication (3.0.0)
-      decorators (~> 2.0.0)
-      deface (~> 1.0.0)
-      refinerycms-core (~> 3.0.0)
+    spree-refinerycms-authentication (3.1.0)
+      decorators (~> 2.0)
+      deface (~> 1.0)
+      refinerycms-core (>= 3.0.6, < 5.0)
       spree_core (~> 3.0)
       zilch-authorisation (>= 0.0.1)
 
@@ -118,7 +118,7 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffaker (2.2.0)
-    ffi (1.11.3)
+    ffi (1.12.2)
     font-awesome-rails (4.7.0.5)
       railties (>= 3.2, < 6.1)
     font-awesome-sass (4.7.0)
@@ -152,16 +152,16 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    mime-types (3.3)
+    mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
     mimemagic (0.3.0)
     mini_mime (1.0.2)
     mini_portile2 (2.1.0)
     minitest (5.14.0)
-    monetize (1.9.2)
+    monetize (1.9.4)
       money (~> 6.12)
-    money (6.13.6)
+    money (6.13.7)
       i18n (>= 0.6.4, <= 2)
     multi_json (1.14.1)
     nokogiri (1.6.8.1)
@@ -185,7 +185,7 @@ GEM
     premailer-rails (1.10.3)
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
-    public_suffix (4.0.1)
+    public_suffix (4.0.3)
     rabl (0.12.0)
       activesupport (>= 2.3.14)
     rack (1.6.13)
@@ -226,7 +226,7 @@ GEM
       i18n
       polyamorous (~> 1.1)
     rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
+    rb-inotify (0.10.1)
       ffi (~> 1.0)
     rdoc (6.2.0)
     refinerycms (3.0.6)
